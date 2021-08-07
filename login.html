@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoke</title>
+    <script src="https://kit.fontawesome.com/baf66a9e6e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Concert+One&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Acme', sans-serif;
+            font-family: 'Concert One', cursive;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 1030px;
+            height: 560px;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            margin: 35px auto;
+            margin-top: 80px;
+        }
+
+
+        #box1 {
+            font-size: 20px;
+            background-image: url(img1.jfif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-left: 30px;
+            padding-top: 175px;
+            text-align: left;
+            float: left;
+            width: 50%;
+            height: 100%;
+            color: white;
+        }
+
+        #box2 {
+            font-size: 18px;
+            text-align: center;
+            float: right;
+            width: 50%;
+            height: 100%;
+            text-align: left;
+            padding-left: 70px;
+            padding-top: 90px;
+        }
+
+        .inb2 {
+            margin-top: 220px;
+            font-size: 12px;
+            */
+        }
+
+        .inb1 {
+            border: 2px solid red;
+            margin-top: 5px;
+        }
+
+        .boxes {
+            text-decoration: none;
+            border: none;
+        }
+
+        .boxes:hover{
+            border: none;
+            cursor: pointer;
+        }
+
+        hr {
+            width: 87%;
+
+        }
+
+        button {
+            border-radius: 10px;
+            background-color: rgb(72, 222, 72);
+            width: 45%;
+            height: 30px;
+        }
+    </style>    
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box" id="box1">
+
+            <h2>Welcome To Stoke</h2>
+            <p>Let's light some fire and get the show on the road...</p>
+
+            <div class="inb2">
+                <i class="fab fa-facebook-square" style="margin-right: 20px;"></i>
+                <i class="fab fa-linkedin" style="margin-right: 20px;"></i>
+                <i class="fab fa-twitter" style="margin-right: 20px;"></i>
+                <a href="https://www.stoketalent.com/privacy/" target="_blank"
+                    style="text-decoration: none; color: white; margin-left: 100px;"> Privacy Policy</a>
+                <i class="far fa-copyright" style="margin-left: 100px;"></i> 2020 Stoke
+            </div>
+
+        </div>
+
+
+        <div class="box" id="box2">
+            <h1>Log In</h1>
+            <form action="" method="POST" id="frm">
+                <!-- <i class="far fa-user"></i><input type="text" class="boxes" placeholder="Name"
+                    style="margin-left: 10px; height: 25px; width: 380px;">
+                <hr>
+                <br> -->
+                <i class="far fa-envelope"></i><input type="email" class="boxes" placeholder="Email"
+                    style="margin-left: 10px; height: 25px; width: 380px;">
+                <hr>
+                <br>
+                <i class="fas fa-lock"></i><input type="password" class="boxes" placeholder="Password"
+                    style="margin-left: 10px; height: 25px; width: 380px;">
+                <hr>
+                <br>
+                <!-- <input type="checkbox" style="cursor: pointer;">I agree to Stoke Temrs and <a href="https://www.stoketalent.com/privacy/"
+                    target="_blank">Privacy Polciy</a>
+                <br> <br> -->
+                <button>Log In</button>
+                <br> <br>
+                New to Stoke? <a href="index.html">Sign Up</a>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
